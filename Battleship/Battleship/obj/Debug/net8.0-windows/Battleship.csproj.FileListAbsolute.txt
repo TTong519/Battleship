@@ -1,0 +1,16 @@
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.exe
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.deps.json
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.runtimeconfig.json
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.dll
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.pdb
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.Form1.resources
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.csproj.GenerateResource.cache
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.GeneratedMSBuildEditorConfig.editorconfig
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.AssemblyInfoInputs.cache
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.AssemblyInfo.cs
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.csproj.CoreCompileInputs.cache
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.dll
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\refint\Battleship.dll
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.pdb
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.genruntimeconfig.cache
+\\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\ref\Battleship.dll
