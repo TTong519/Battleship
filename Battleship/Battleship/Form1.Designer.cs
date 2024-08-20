@@ -36,6 +36,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = SystemColors.ControlText;
             pictureBox1.Location = new Point(12, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(400, 400);
@@ -45,6 +46,7 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.BackColor = SystemColors.ControlText;
             pictureBox2.Location = new Point(518, 12);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(400, 400);
