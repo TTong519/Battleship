@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tyler\\Source\\Repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj": {}
+    "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tyler\\Source\\Repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj": {
+    "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tyler\\Source\\Repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj",
+        "projectUniqueName": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj",
         "projectName": "Battleship",
-        "projectPath": "C:\\Users\\tyler\\Source\\Repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj",
+        "projectPath": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj",
         "packagesPath": "C:\\Users\\tyler\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\tyler\\Source\\Repos\\TTong519\\Battleship\\Battleship\\Battleship\\obj\\",
         "projectStyle": "PackageReference",

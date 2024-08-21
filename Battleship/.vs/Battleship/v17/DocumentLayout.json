@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|solutionrelative:battleship\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|c:\\users\\tyler\\source\\repos\\ttong519\\battleship\\battleship\\battleship\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|solutionrelative:battleship\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|c:\\users\\tyler\\source\\repos\\ttong519\\battleship\\battleship\\battleship\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|solutionrelative:battleship\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|c:\\users\\tyler\\source\\repos\\ttong519\\battleship\\battleship\\battleship\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|solutionrelative:battleship\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|c:\\users\\tyler\\source\\repos\\ttong519\\battleship\\battleship\\battleship\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\battleship\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|solutionrelative:battleship\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|c:\\users\\tyler\\source\\repos\\ttong519\\battleship\\battleship\\battleship\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|solutionrelative:battleship\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +42,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Grid.cs",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Grid.cs",
+              "RelativeDocumentMoniker": "Battleship\\Grid.cs",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Grid.cs",
+              "RelativeToolTip": "Battleship\\Grid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T04:33:58.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Square.cs",
-              "DocumentMoniker": "C:\\Users\\tyler\\Source\\Repos\\TTong519\\Battleship\\Battleship\\Battleship\\Square.cs",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Square.cs",
               "RelativeDocumentMoniker": "Battleship\\Square.cs",
-              "ToolTip": "C:\\Users\\tyler\\Source\\Repos\\TTong519\\Battleship\\Battleship\\Battleship\\Square.cs",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Square.cs",
               "RelativeToolTip": "Battleship\\Square.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T05:34:59.336Z",
               "EditorCaption": ""
@@ -57,27 +74,27 @@
               "RelativeDocumentMoniker": "Battleship\\ship.cs",
               "ToolTip": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\ship.cs",
               "RelativeToolTip": "Battleship\\ship.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T05:34:18.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Form1.cs",
               "RelativeDocumentMoniker": "Battleship\\Form1.cs",
               "ToolTip": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Form1.cs",
               "RelativeToolTip": "Battleship\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T05:28:44.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Form1.cs",
               "RelativeDocumentMoniker": "Battleship\\Form1.cs",

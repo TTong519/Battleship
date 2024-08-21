@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace Battleship
 {
-    internal class ship
+    public class ship
     {
         public int size = 0;
         public Point[] body = new Point[0];
+        ship(int size)
+        {
+            this.size = size;
+            Point[] body1 = new Point[size];
+            body = body1;
+        }
     }
 }

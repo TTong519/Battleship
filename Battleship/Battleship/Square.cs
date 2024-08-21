@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Battleship
 {
-    internal class Square
+    public class Square
     {
         public Brush color;
         public Rectangle Hitbox;
