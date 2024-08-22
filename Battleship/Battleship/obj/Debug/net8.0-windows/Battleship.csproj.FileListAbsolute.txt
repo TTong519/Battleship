@@ -14,3 +14,20 @@
 \\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.pdb
 \\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.genruntimeconfig.cache
 \\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\ref\Battleship.dll
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.exe
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.deps.json
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.runtimeconfig.json
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.dll
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.pdb
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.Form1.resources
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.csproj.GenerateResource.cache
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.AssemblyInfoInputs.cache
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.AssemblyInfo.cs
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.csproj.CoreCompileInputs.cache
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.sourcelink.json
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.dll
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\refint\Battleship.dll
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.pdb
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.genruntimeconfig.cache
+C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\ref\Battleship.dll
