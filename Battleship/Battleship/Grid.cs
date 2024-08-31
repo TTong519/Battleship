@@ -8,14 +8,14 @@ namespace Battleship
 {
     public class Grid
     {
-        public Square[,] Squares = new Square[8, 8];
+        public Square[,] Squares = new Square[10, 10];
         public Grid()
         {
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 10; i++)
             {
-                for (int j = 0; j < 8; j++)
+                for (int j = 0; j < 10; j++)
                 {
-                    Squares[i, j] = new(Brushes.White, 2 + 100 * j, 2 + 100 * i);
+                    Squares[i, j] = new(Brushes.White, 2 + 40 * j, 2 + 40 * i);
                 }
             }
         }

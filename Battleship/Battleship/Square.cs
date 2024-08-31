@@ -13,7 +13,7 @@ namespace Battleship
         public Square(Brush color, int x, int y)
         {
             this.color = color;
-            Hitbox = new Rectangle(x, y, 48, 48);
+            Hitbox = new Rectangle(x, y, 38, 38);
 
         }
     }

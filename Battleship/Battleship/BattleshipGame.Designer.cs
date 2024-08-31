@@ -1,6 +1,6 @@
 ﻿namespace Battleship
 {
-    partial class Form1
+    partial class BattleshipGame
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
+            GameTimer = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -42,7 +44,7 @@
             pictureBox1.Size = new Size(400, 400);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            pictureBox1.MouseClick += pictureBox1_MouseClick;
             // 
             // pictureBox2
             // 
@@ -52,18 +54,24 @@
             pictureBox2.Size = new Size(400, 400);
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
+            pictureBox2.MouseClick += pictureBox2_MouseClick;
             // 
-            // Form1
+            // GameTimer
+            // 
+            GameTimer.Enabled = true;
+            GameTimer.Interval = 10;
+            GameTimer.Tick += GameTimer_Tick;
+            // 
+            // BattleshipGame
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(930, 486);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
-            Name = "Form1";
+            Name = "BattleshipGame";
             Text = "Form1";
-            Load += Form1_Load;
+            Load += BattlshipGame_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
@@ -73,5 +81,6 @@
 
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private System.Windows.Forms.Timer GameTimer;
     }
 }
