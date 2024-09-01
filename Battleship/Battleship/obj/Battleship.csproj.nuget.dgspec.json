@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\Battleship.csproj": {}
+    "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj": {}
   },
   "projects": {
-    "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\Battleship.csproj": {
+    "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\Battleship.csproj",
+        "projectUniqueName": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj",
         "projectName": "Battleship",
-        "projectPath": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\Battleship.csproj",
-        "packagesPath": "C:\\Users\\tyler.tong\\.nuget\\packages\\",
-        "outputPath": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\obj\\",
+        "projectPath": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj",
+        "packagesPath": "C:\\Users\\tyler\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tyler\\Source\\Repos\\TTong519\\Battleship\\Battleship\\Battleship\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tyler.tong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

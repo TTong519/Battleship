@@ -18,7 +18,6 @@ C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\bin\Debug\
 C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.runtimeconfig.json
 C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.dll
 C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\bin\Debug\net8.0-windows\Battleship.pdb
-C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.Form1.resources
 C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.csproj.GenerateResource.cache
 C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.AssemblyInfoInputs.cache
@@ -32,3 +31,4 @@ C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\
 C:\Users\tyler\source\repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\ref\Battleship.dll
 \\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.sourcelink.json
 \\GMRDC1\Folder Redirection\tyler.tong\Documents\Github\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.BattleshipGame.resources
+C:\Users\tyler\Source\Repos\TTong519\Battleship\Battleship\Battleship\obj\Debug\net8.0-windows\Battleship.BattleshipGame.resources
