@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Battleship
 {
-    public class ship
+    public class ship//I hate this but it won't let me rename so :( -Nikita
     {
         public int size = 0;
         public Point[] body = new Point[0];

@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\tyler\\.nuget\\packages\\": {}
+    "C:\\Users\\tyler.tong\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj",
+      "projectUniqueName": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\Battleship.csproj",
       "projectName": "Battleship",
-      "projectPath": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Battleship.csproj",
-      "packagesPath": "C:\\Users\\tyler\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\obj\\",
+      "projectPath": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\Battleship.csproj",
+      "packagesPath": "C:\\Users\\tyler.tong\\.nuget\\packages\\",
+      "outputPath": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tyler.tong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

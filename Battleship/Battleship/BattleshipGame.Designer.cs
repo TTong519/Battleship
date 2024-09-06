@@ -54,7 +54,6 @@
             pictureBox2.Size = new Size(400, 400);
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
-            pictureBox2.MouseClick += pictureBox2_MouseClick;
             // 
             // GameTimer
             // 

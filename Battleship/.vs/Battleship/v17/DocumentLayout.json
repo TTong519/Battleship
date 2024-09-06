@@ -1,30 +1,27 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\",
+  "WorkspaceRootPath": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|c:\\users\\tyler\\source\\repos\\ttong519\\battleship\\battleship\\battleship\\battleshipgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|solutionrelative:battleship\\battleshipgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|\\\\gmrdc1\\folder redirection\\tyler.tong\\documents\\github\\battleship\\battleship\\battleship\\battleshipgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|c:\\users\\tyler\\source\\repos\\ttong519\\battleship\\battleship\\battleship\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|solutionrelative:battleship\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|\\\\gmrdc1\\folder redirection\\tyler.tong\\documents\\github\\battleship\\battleship\\battleship\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\battleship\\battleshipgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|solutionrelative:battleship\\battleshipgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|\\\\gmrdc1\\folder redirection\\tyler.tong\\documents\\github\\battleship\\battleship\\battleship\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|c:\\users\\tyler\\source\\repos\\ttong519\\battleship\\battleship\\battleship\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|solutionrelative:battleship\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|\\\\gmrdc1\\folder redirection\\tyler.tong\\documents\\github\\battleship\\battleship\\battleship\\battleshipgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|c:\\users\\tyler\\source\\repos\\ttong519\\battleship\\battleship\\battleship\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|solutionrelative:battleship\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|\\\\gmrdc1\\folder redirection\\tyler.tong\\documents\\github\\battleship\\battleship\\battleship\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|c:\\users\\tyler\\source\\repos\\ttong519\\battleship\\battleship\\battleship\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|solutionrelative:battleship\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|\\\\gmrdc1\\folder redirection\\tyler.tong\\documents\\github\\battleship\\battleship\\battleship\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{068333DE-C5A2-48A6-B7D2-A6D240EFB56A}|Battleship\\Battleship.csproj|\\\\gmrdc1\\folder redirection\\tyler.tong\\documents\\github\\battleship\\battleship\\battleship\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +31,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,75 +43,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BattleshipGame.cs",
-              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\BattleshipGame.cs",
+              "DocumentIndex": 3,
+              "Title": "BattleshipGame.cs [Design]",
+              "DocumentMoniker": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\BattleshipGame.cs",
               "RelativeDocumentMoniker": "Battleship\\BattleshipGame.cs",
-              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\BattleshipGame.cs",
-              "RelativeToolTip": "Battleship\\BattleshipGame.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAQwGUAAAAjAAAA",
+              "ToolTip": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\BattleshipGame.cs [Design]",
+              "RelativeToolTip": "Battleship\\BattleshipGame.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T22:33:02.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T01:31:58.663Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BattleshipGame.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\BattleshipGame.cs",
-              "RelativeDocumentMoniker": "Battleship\\BattleshipGame.cs",
-              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\BattleshipGame.cs [Design]",
-              "RelativeToolTip": "Battleship\\BattleshipGame.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T22:31:29.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "player.cs",
-              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\player.cs",
+              "DocumentMoniker": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\player.cs",
               "RelativeDocumentMoniker": "Battleship\\player.cs",
-              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\player.cs",
+              "ToolTip": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\player.cs",
               "RelativeToolTip": "Battleship\\player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAATAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T22:16:57.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Square.cs",
-              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Square.cs",
-              "RelativeDocumentMoniker": "Battleship\\Square.cs",
-              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Square.cs",
-              "RelativeToolTip": "Battleship\\Square.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAEwBIAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T05:34:59.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Grid.cs",
-              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Grid.cs",
-              "RelativeDocumentMoniker": "Battleship\\Grid.cs",
-              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\Grid.cs",
-              "RelativeToolTip": "Battleship\\Grid.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T04:33:58.41Z"
+              "WhenOpened": "2024-09-05T23:43:11.012Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ship.cs",
-              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\ship.cs",
-              "RelativeDocumentMoniker": "Battleship\\ship.cs",
-              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TTong519\\Battleship\\Battleship\\Battleship\\ship.cs",
-              "RelativeToolTip": "Battleship\\ship.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Title": "Square.cs",
+              "DocumentMoniker": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\Square.cs",
+              "RelativeDocumentMoniker": "Battleship\\Square.cs",
+              "ToolTip": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\Square.cs",
+              "RelativeToolTip": "Battleship\\Square.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T05:34:18.667Z"
+              "WhenOpened": "2024-08-31T01:26:19.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ship.cs",
+              "DocumentMoniker": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\ship.cs",
+              "RelativeDocumentMoniker": "Battleship\\ship.cs",
+              "ToolTip": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\ship.cs",
+              "RelativeToolTip": "Battleship\\ship.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T01:26:19.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\Program.cs",
+              "RelativeDocumentMoniker": "Battleship\\Program.cs",
+              "ToolTip": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\Program.cs",
+              "RelativeToolTip": "Battleship\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T01:26:18.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Grid.cs",
+              "DocumentMoniker": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\Grid.cs",
+              "RelativeDocumentMoniker": "Battleship\\Grid.cs",
+              "ToolTip": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\Grid.cs",
+              "RelativeToolTip": "Battleship\\Grid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T01:26:17.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BattleshipGame.cs",
+              "DocumentMoniker": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\BattleshipGame.cs",
+              "RelativeDocumentMoniker": "Battleship\\BattleshipGame.cs",
+              "ToolTip": "\\\\GMRDC1\\Folder Redirection\\tyler.tong\\Documents\\Github\\Battleship\\Battleship\\Battleship\\BattleshipGame.cs",
+              "RelativeToolTip": "Battleship\\BattleshipGame.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwCwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T00:07:03.988Z",
+              "EditorCaption": ""
             }
           ]
         }
