@@ -19,7 +19,7 @@ namespace Battleship
         {
             InitializeComponent();
         }
-        public Square[,] Check(Square[,] Squares)
+        public Square[,] Check(Square[,] Squares, MouseEventArgs e)
         {
             for (int i = 0; i < 10; i++)
             {
