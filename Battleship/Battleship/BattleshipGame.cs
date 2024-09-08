@@ -15,36 +15,32 @@ namespace Battleship
         ship ship;
         player bot;
         player player;
+        Random random = new Random();
+        bool einBoolean = true;
         public BattleshipGame()
         {
             InitializeComponent();
         }
-        public Square[,] Check(Square[,] Squares, MouseEventArgs e)
+        public Square[,] Check(Square[,] Squares, Point e)
         {
-            for (int i = 0; i < 10; i++)
+            double a = e.Y / 40;
+            double b = e.X / 40;
+            int i = (int)Math.Ceiling(a);
+            int j = (int)Math.Ceiling(b);
+            for (int k = 0; k < 5; k++)
             {
-                for (int j = 0; j < 10; j++)
+                for (int l = 0; l < bot.Ships[k].size; l++)
                 {
-                    if (Squares[i, j].Hitbox.Contains(e.Location))
+                    if (bot.Ships[k].body[l] == new Point(i, j))
                     {
-                        for (int k = 0; k < 5; k++)
-                        {
-                            for (int l = 0; l < bot.Ships[k].size; l++)
-                            {
-                                if (bot.Ships[k].body[l] == new Point(i, j))
-                                {
-                                    Squares[i, j].state = State.Hit;
-                                    return Squares;
-                                }
-                            }
-                        }
-                        Squares[i, j].state = State.Miss;
+                        Squares[i, j].state = State.Hit;
+                        return Squares;
                     }
                 }
             }
+            Squares[i, j].state = State.Miss;
             return Squares;
         }
-    }
         private void BattlshipGame_Load(object sender, EventArgs e)
         {
             bmpR = new Bitmap(pictureBox1.Width, pictureBox1.Height);
@@ -77,32 +73,32 @@ namespace Battleship
 
         private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
         {
-            for (int i = 0; i < 10; i++)
+            if (einBoolean)
             {
-                for (int j = 0; j < 10; j++)
-                {
-                    if (gridR.Squares[i, j].Hitbox.Contains(e.Location))
-                    {
-                        for (int k = 0; k < 5; k++)
-                        {
-                            for (int l = 0; l < bot.Ships[k].size; l++)
-                            {
-                                if (bot.Ships[k].body[l] == new Point(i, j))
-                                {
-                                    gridR.Squares[i, j].state = State.Hit;
-                                    return;
-                                }
-                            }
-                        }
-                        gridR.Squares[i, j].state = State.Miss;
-                    }
-                }
+                gridR.Squares = Check(gridR.Squares, e.Location);
+                einBoolean = false;
             }
         }
-    }
-
         private void GameTimer_Tick(object sender, EventArgs e)
         {
+            if(!einBoolean)
+            {
+                Point d = new Point(random.Next(0, 400), random.Next(0, 400));
+                double a = d.Y / 40;
+                double b = d.X / 40;
+                int i = (int)Math.Ceiling(a);
+                int j = (int)Math.Ceiling(b);
+                while (gridL.Squares[i,j].state != State.None)
+                {
+                    d = new Point(random.Next(0, 400), random.Next(0, 400));
+                    a = d.Y / 40;
+                    b = d.X / 40;
+                    i = (int)Math.Ceiling(a);
+                    j = (int)Math.Ceiling(b);
+                }
+                gridL.Squares = Check(gridL.Squares, d);
+                einBoolean = true;
+            }
             gfxR.Clear(BackColor);
             gfxL.Clear(BackColor);
             for (int i = 0; i < 10; i++)
