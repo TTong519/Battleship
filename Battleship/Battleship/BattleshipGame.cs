@@ -16,6 +16,7 @@ namespace Battleship
         player bot;
         player player;
         Random random = new Random();
+        int turnspassed = 0;
         bool einBoolean = true;
         public BattleshipGame()
         {
@@ -77,18 +78,19 @@ namespace Battleship
             {
                 gridR.Squares = Check(gridR.Squares, e.Location);
                 einBoolean = false;
+                turnspassed += 1;
             }
         }
         private void GameTimer_Tick(object sender, EventArgs e)
         {
-            if(!einBoolean)
+            if (!einBoolean)
             {
                 Point d = new Point(random.Next(0, 400), random.Next(0, 400));
                 double a = d.Y / 40;
                 double b = d.X / 40;
                 int i = (int)Math.Ceiling(a);
                 int j = (int)Math.Ceiling(b);
-                while (gridL.Squares[i,j].state != State.None)
+                while (gridL.Squares[i, j].state != State.None)
                 {
                     d = new Point(random.Next(0, 400), random.Next(0, 400));
                     a = d.Y / 40;
@@ -98,6 +100,7 @@ namespace Battleship
                 }
                 gridL.Squares = Check(gridL.Squares, d);
                 einBoolean = true;
+                turnspassed += 1;
             }
             gfxR.Clear(BackColor);
             gfxL.Clear(BackColor);
@@ -131,8 +134,27 @@ namespace Battleship
                     }
                 }
             }
+            for(int i = 0;i < 5;i++)
+            {
+                player.Ships[i].Draw(gridL, gfxL, Brushes.Gainsboro);
+            }
             pictureBox1.Image = bmpR;
             pictureBox2.Image = bmpL;
+        }
+
+        private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (turnspassed == 0)
+            {
+                if (player.Point == null)
+                {
+                    player.Point = e.Location;
+                }
+                else
+                {
+                    player.Setter(player.Point, e.Location);
+                }
+            }
         }
     }
 }
