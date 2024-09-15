@@ -12,9 +12,9 @@ namespace Battleship
         Graphics gfxR;
         Bitmap bmpR;
         Grid gridR;
-        ship ship;
-        player bot;
-        player player;
+        Ship ship;
+        Player bot;
+        Player player;
         Random random = new Random();
         int turnspassed = 0;
         bool einBoolean = true;
@@ -22,24 +22,20 @@ namespace Battleship
         {
             InitializeComponent();
         }
-        public Square[,] Check(Square[,] Squares, Point e)
+        public Square[,] Check(Square[,] Squares, Point e, Player player)
         {
-            double a = e.Y / 40;
-            double b = e.X / 40;
-            int i = (int)Math.Ceiling(a);
-            int j = (int)Math.Ceiling(b);
             for (int k = 0; k < 5; k++)
             {
-                for (int l = 0; l < bot.Ships[k].size; l++)
+                for (int l = 0; l < player.Ships[k].size; l++)
                 {
-                    if (bot.Ships[k].body[l] == new Point(i, j))
+                    if (player.Ships[k].body[l] == new Point(e.X, e.Y))
                     {
-                        Squares[i, j].state = State.Hit;
+                        Squares[e.X, e.Y].state = State.Hit;
                         return Squares;
                     }
                 }
             }
-            Squares[i, j].state = State.Miss;
+            Squares[e.X, e.Y].state = State.Miss;
             return Squares;
         }
         private void BattlshipGame_Load(object sender, EventArgs e)
@@ -50,8 +46,8 @@ namespace Battleship
             bmpL = new Bitmap(pictureBox2.Width, pictureBox2.Height);
             gfxL = Graphics.FromImage(bmpL);
             gridL = new Grid();
-            player = new player();
-            bot = new player();
+            player = new Player();
+            bot = new Player();
 
             bot.Ships[4].body[0] = new Point(1, 2);
             bot.Ships[4].body[1] = new Point(1, 3);
@@ -67,16 +63,18 @@ namespace Battleship
             bot.Ships[2].body[2] = new Point(6, 1);
             bot.Ships[1].body[0] = new Point(7, 6);
             bot.Ships[1].body[1] = new Point(6, 6);
-            bot.Ships[1].body[2] = new Point(5, 6);
             bot.Ships[0].body[0] = new Point(8, 2);
-            bot.Ships[0].body[1] = new Point(8, 3);
         }
 
         private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
         {
             if (einBoolean)
             {
-                gridR.Squares = Check(gridR.Squares, e.Location);
+                double a = e.Location.Y / 40;
+                double b = e.Location.X / 40;
+                int i = (int)Math.Ceiling(a);
+                int j = (int)Math.Ceiling(b);
+                gridR.Squares = Check(gridR.Squares, new Point(i, j), bot);
                 einBoolean = false;
                 turnspassed += 1;
             }
@@ -90,6 +88,8 @@ namespace Battleship
                 double b = d.X / 40;
                 int i = (int)Math.Ceiling(a);
                 int j = (int)Math.Ceiling(b);
+                d.X = i;
+                d.Y = j;
                 while (gridL.Squares[i, j].state != State.None)
                 {
                     d = new Point(random.Next(0, 400), random.Next(0, 400));
@@ -97,8 +97,10 @@ namespace Battleship
                     b = d.X / 40;
                     i = (int)Math.Ceiling(a);
                     j = (int)Math.Ceiling(b);
+                    d.X = i;
+                    d.Y = j;
                 }
-                gridL.Squares = Check(gridL.Squares, d);
+                gridL.Squares = Check(gridL.Squares, d, player);
                 einBoolean = true;
                 turnspassed += 1;
             }
@@ -111,6 +113,10 @@ namespace Battleship
                     gfxR.FillRectangle(Brushes.White, gridR.Squares[i, j].Hitbox);
                     gfxL.FillRectangle(Brushes.White, gridL.Squares[i, j].Hitbox);
                 }
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                player.Ships[i].Draw(gridL, gfxL, Brushes.Gainsboro);
             }
             for (int i = 0; i < 10; i++)
             {
@@ -134,10 +140,6 @@ namespace Battleship
                     }
                 }
             }
-            for(int i = 0;i < 5;i++)
-            {
-                player.Ships[i].Draw(gridL, gfxL, Brushes.Gainsboro);
-            }
             pictureBox1.Image = bmpR;
             pictureBox2.Image = bmpL;
         }
@@ -146,13 +148,23 @@ namespace Battleship
         {
             if (turnspassed == 0)
             {
-                if (player.Point == null)
+                if (player.vzcxv == false)
                 {
-                    player.Point = e.Location;
+                    double temp = e.Location.X/40;
+                    double temp1 = e.Location.Y/40;
+                    int X = (int) Math.Ceiling(temp);
+                    int Y = (int) Math.Ceiling(temp1);
+                    player.Point = new Point(Y, X);
+                    player.vzcxv = true;
                 }
                 else
                 {
-                    player.Setter(player.Point, e.Location);
+                    double temp = e.Location.X/40;
+                    double temp1 = e.Location.Y/40;
+                    int X = (int)Math.Ceiling(temp);
+                    int Y = (int)Math.Ceiling(temp1);
+                    player.Setter(player.Point, new Point(Y, X));
+                    player.vzcxv = false;
                 }
             }
         }
