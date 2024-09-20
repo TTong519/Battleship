@@ -68,6 +68,13 @@ namespace Battleship
 
         private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
         {
+            for(int i = 0; i < 5; i++)
+            {
+                if(player.Ships[i].inited == false)
+                {
+                    return;
+                }
+            }
             if (einBoolean)
             {
                 double a = e.Location.Y / 40;
@@ -116,7 +123,10 @@ namespace Battleship
             }
             for (int i = 0; i < 5; i++)
             {
-                player.Ships[i].Draw(gridL, gfxL, Brushes.Gainsboro);
+                if (player.Ships[i].inited)
+                {
+                    player.Ships[i].Draw(gridL, gfxL, Brushes.Gainsboro);
+                }
             }
             for (int i = 0; i < 10; i++)
             {

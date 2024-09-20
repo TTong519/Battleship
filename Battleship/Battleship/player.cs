@@ -27,6 +27,7 @@ namespace Battleship
                 for (int i = 0; i < Ships[index].size; i++)
                 {
                     Ships[index].body[i] = new Point(stpoint.X, stpoint.Y + i);
+                    Ships[index].inited = true;
                 }
             }
             else if (stpoint.Y == epoint.Y)
@@ -35,6 +36,7 @@ namespace Battleship
                 for (int i = 0; i < Ships[index].size; i++)
                 {
                     Ships[index].body[i] = new Point(stpoint.X + i, stpoint.Y);
+                    Ships[index].inited = true;
                 }
             }
         }

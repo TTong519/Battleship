@@ -8,6 +8,7 @@ namespace Battleship
 {
     public class Ship
     {
+        public bool inited = false;
         public int size = 0;
         public Point[] body = new Point[0];
         public Ship(int size)
