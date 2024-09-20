@@ -21,7 +21,7 @@ namespace Battleship
         {
             for(int i = 0; i < size; i++)
             {
-                gfx.FillRectangle(b, grd.Squares[body[i].X, body[i].Y].Hitbox);
+                gfx.FillRectangle(b, grd.Squares[(body[i].X), (body[i].Y)].Hitbox);
             }
         }
     }

@@ -32,6 +32,7 @@
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             GameTimer = new System.Windows.Forms.Timer(components);
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -62,11 +63,22 @@
             GameTimer.Interval = 10;
             GameTimer.Tick += GameTimer_Tick;
             // 
+            // button1
+            // 
+            button1.Location = new Point(427, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 2;
+            button1.Text = "restart";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // BattleshipGame
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(930, 486);
+            Controls.Add(button1);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Name = "BattleshipGame";
@@ -82,5 +94,6 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private System.Windows.Forms.Timer GameTimer;
+        private Button button1;
     }
 }

@@ -68,9 +68,9 @@ namespace Battleship
 
         private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
         {
-            for(int i = 0; i < 5; i++)
+            for (int i = 0; i < 5; i++)
             {
-                if(player.Ships[i].inited == false)
+                if (player.Ships[i].inited == false)
                 {
                     return;
                 }
@@ -160,23 +160,51 @@ namespace Battleship
             {
                 if (player.vzcxv == false)
                 {
-                    double temp = e.Location.X/40;
-                    double temp1 = e.Location.Y/40;
-                    int X = (int) Math.Ceiling(temp);
-                    int Y = (int) Math.Ceiling(temp1);
+                    double temp = e.Location.X / 40;
+                    double temp1 = e.Location.Y / 40;
+                    int X = (int)Math.Ceiling(temp);
+                    int Y = (int)Math.Ceiling(temp1);
                     player.Point = new Point(Y, X);
                     player.vzcxv = true;
                 }
                 else
                 {
-                    double temp = e.Location.X/40;
-                    double temp1 = e.Location.Y/40;
+                    double temp = e.Location.X / 40;
+                    double temp1 = e.Location.Y / 40;
                     int X = (int)Math.Ceiling(temp);
                     int Y = (int)Math.Ceiling(temp1);
                     player.Setter(player.Point, new Point(Y, X));
                     player.vzcxv = false;
                 }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            bmpR = new Bitmap(pictureBox1.Width, pictureBox1.Height);
+            gfxR = Graphics.FromImage(bmpR);
+            gridR = new Grid();
+            bmpL = new Bitmap(pictureBox2.Width, pictureBox2.Height);
+            gfxL = Graphics.FromImage(bmpL);
+            gridL = new Grid();
+            player = new Player();
+            bot = new Player();
+            turnspassed = 0;
+            bot.Ships[4].body[0] = new Point(1, 2);
+            bot.Ships[4].body[1] = new Point(1, 3);
+            bot.Ships[4].body[2] = new Point(1, 4);
+            bot.Ships[4].body[3] = new Point(1, 5);
+            bot.Ships[4].body[4] = new Point(1, 6);
+            bot.Ships[3].body[0] = new Point(2, 8);
+            bot.Ships[3].body[1] = new Point(3, 8);
+            bot.Ships[3].body[2] = new Point(4, 8);
+            bot.Ships[3].body[3] = new Point(5, 8);
+            bot.Ships[2].body[0] = new Point(6, 3);
+            bot.Ships[2].body[1] = new Point(6, 2);
+            bot.Ships[2].body[2] = new Point(6, 1);
+            bot.Ships[1].body[0] = new Point(7, 6);
+            bot.Ships[1].body[1] = new Point(6, 6);
+            bot.Ships[0].body[0] = new Point(8, 2);
         }
     }
 }
