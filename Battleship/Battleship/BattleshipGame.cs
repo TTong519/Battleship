@@ -48,22 +48,66 @@ namespace Battleship
             gridL = new Grid();
             player = new Player();
             bot = new Player();
-
-            bot.Ships[4].body[0] = new Point(1, 2);
-            bot.Ships[4].body[1] = new Point(1, 3);
-            bot.Ships[4].body[2] = new Point(1, 4);
-            bot.Ships[4].body[3] = new Point(1, 5);
-            bot.Ships[4].body[4] = new Point(1, 6);
-            bot.Ships[3].body[0] = new Point(2, 8);
-            bot.Ships[3].body[1] = new Point(3, 8);
-            bot.Ships[3].body[2] = new Point(4, 8);
-            bot.Ships[3].body[3] = new Point(5, 8);
-            bot.Ships[2].body[0] = new Point(6, 3);
-            bot.Ships[2].body[1] = new Point(6, 2);
-            bot.Ships[2].body[2] = new Point(6, 1);
-            bot.Ships[1].body[0] = new Point(7, 6);
-            bot.Ships[1].body[1] = new Point(6, 6);
-            bot.Ships[0].body[0] = new Point(8, 2);
+            for (int i = 0; i < 5; i++)
+            {
+                bool up = random.Next(2) == 0;
+                Point start = new Point(random.Next(10), random.Next(10));
+                Point end = new Point();
+                if (up)
+                {
+                    end.X = start.X;
+                    if(start.Y >= i)
+                    {
+                        end.Y = start.Y - i;
+                    }
+                    else
+                    {
+                        end.Y = start.Y + i;
+                    }
+                }
+                else
+                {
+                    end.Y = start.Y;
+                    if (start.X >= i)
+                    {
+                        end.X = start.X - i;
+                    }
+                    else
+                    {
+                        end.X = start.X + i;
+                    }
+                }
+                while (!bot.Setter(start, end))
+                {
+                    up = random.Next(2) == 0;
+                    start = new Point(random.Next(10), random.Next(10));
+                    end = new Point();
+                    if (up)
+                    {
+                        end.X = start.X;
+                        if (start.Y >= i)
+                        {
+                            end.Y = start.Y - i;
+                        }
+                        else
+                        {
+                            end.Y = start.Y + i;
+                        }
+                    }
+                    else
+                    {
+                        end.Y = start.Y;
+                        if (start.X >= i)
+                        {
+                            end.X = start.X - i;
+                        }
+                        else
+                        {
+                            end.X = start.X + i;
+                        }
+                    }
+                }
+            }
         }
 
         private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
@@ -189,22 +233,66 @@ namespace Battleship
             gridL = new Grid();
             player = new Player();
             bot = new Player();
-            turnspassed = 0;
-            bot.Ships[4].body[0] = new Point(1, 2);
-            bot.Ships[4].body[1] = new Point(1, 3);
-            bot.Ships[4].body[2] = new Point(1, 4);
-            bot.Ships[4].body[3] = new Point(1, 5);
-            bot.Ships[4].body[4] = new Point(1, 6);
-            bot.Ships[3].body[0] = new Point(2, 8);
-            bot.Ships[3].body[1] = new Point(3, 8);
-            bot.Ships[3].body[2] = new Point(4, 8);
-            bot.Ships[3].body[3] = new Point(5, 8);
-            bot.Ships[2].body[0] = new Point(6, 3);
-            bot.Ships[2].body[1] = new Point(6, 2);
-            bot.Ships[2].body[2] = new Point(6, 1);
-            bot.Ships[1].body[0] = new Point(7, 6);
-            bot.Ships[1].body[1] = new Point(6, 6);
-            bot.Ships[0].body[0] = new Point(8, 2);
+            for (int i = 0; i < 5; i++)
+            {
+                bool up = random.Next(2) == 0;
+                Point start = new Point(random.Next(10), random.Next(10));
+                Point end = new Point();
+                if (up)
+                {
+                    end.X = start.X;
+                    if (start.Y >= i)
+                    {
+                        end.Y = start.Y - i;
+                    }
+                    else
+                    {
+                        end.Y = start.Y + i;
+                    }
+                }
+                else
+                {
+                    end.Y = start.Y;
+                    if (start.X >= i)
+                    {
+                        end.X = start.X - i;
+                    }
+                    else
+                    {
+                        end.X = start.X + i;
+                    }
+                }
+                while (!bot.Setter(start, end))
+                {
+                    up = random.Next(2) == 0;
+                    start = new Point(random.Next(10), random.Next(10));
+                    end = new Point();
+                    if (up)
+                    {
+                        end.X = start.X;
+                        if (start.Y >= i)
+                        {
+                            end.Y = start.Y - i;
+                        }
+                        else
+                        {
+                            end.Y = start.Y + i;
+                        }
+                    }
+                    else
+                    {
+                        end.Y = start.Y;
+                        if (start.X >= i)
+                        {
+                            end.X = start.X - i;
+                        }
+                        else
+                        {
+                            end.X = start.X + i;
+                        }
+                    }
+                }
+            }
         }
     }
 }
