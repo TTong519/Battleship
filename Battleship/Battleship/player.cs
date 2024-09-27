@@ -22,13 +22,13 @@ namespace Battleship
             Ships[3] = new Ship(4);
             Ships[4] = new Ship(5);
         }
-        bool Collision(int index, int i)
+        bool Collision(int index, int i, Point point)
         {
             for (int j = 0; j < 5; j++)
             {
                 for (int k = 0; k < j + 1; k++)
                 {
-                    if (Ships[j].body[k] == Ships[index].body[i] && Ships[j].inited && j != index)
+                    if (Ships[j].body[k] == Ships[index].body[i] && Ships[j].isplaces && j != index)
                     {
                         return false;
                     }
@@ -47,6 +47,7 @@ namespace Battleship
                 int index = Math.Abs(stpoint.Y - epoint.Y);
                 if(index > 5)
                 {
+                    throw new Exception("nope");
                     return false;
                 }
                 for (int i = 0; i < Ships[index].size; i++)
@@ -54,20 +55,22 @@ namespace Battleship
                     if (stpoint.Y > epoint.Y)
                     {
                         Ships[index].body[i] = new Point(stpoint.X, stpoint.Y - i);
-                        if(!Collision(index, i))
+                        if(!Collision(index, i, new Point(-1, -1)))
                         {
+                            throw new Exception("nope");
                             return false;
                         }
                     }
                     if (stpoint.Y < epoint.Y)
                     {
                         Ships[index].body[i] = new Point(stpoint.X, stpoint.Y + i);
-                        if (!Collision(index, i))
+                        if (!Collision(index, i, new Point(-1, -1)))
                         {
+                            throw new Exception("nope");
                             return false;
                         }
                     }
-                    Ships[index].inited = true;
+                    Ships[index].isplaces = true;
                 }
                 return true;
             }
@@ -76,6 +79,7 @@ namespace Battleship
                 int index = Math.Abs(stpoint.X - epoint.X);
                 if (index >= 5)
                 {
+                    throw new Exception("nope");
                     return false;
                 }
                 for (int i = 0; i < Ships[index].size; i++)
@@ -83,25 +87,28 @@ namespace Battleship
                     if (stpoint.X > epoint.X)
                     {
                         Ships[index].body[i] = new Point(stpoint.X - i, stpoint.Y);
-                        if (!Collision(index, i))
+                        if (!Collision(index, i, new Point(-1, -1)))
                         {
+                            throw new Exception("nope");
                             return false;
                         }
                     }
                     if (stpoint.X < epoint.X)
                     {
                         Ships[index].body[i] = new Point(stpoint.X + i, stpoint.Y);
-                        if (!Collision(index, i))
+                        if (!Collision(index, i, new Point(-1, -1)))
                         {
+                            throw new Exception("nope");
                             return false;
                         }
                     }
-                    Ships[index].inited = true;
+                    Ships[index].isplaces = true;
                 }
                 return true;
             }
             else
             {
+                throw new Exception("nope");
                 return false;
             }
         }

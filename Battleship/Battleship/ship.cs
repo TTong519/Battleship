@@ -8,7 +8,7 @@ namespace Battleship
 {
     public class Ship
     {
-        public bool inited = false;
+        public bool isplaces = false;
         public int size = 0;
         public Point[] body = new Point[0];
         public Ship(int size)
@@ -23,6 +23,22 @@ namespace Battleship
             {
                 gfx.FillRectangle(b, grd.Squares[(body[i].X), (body[i].Y)].Hitbox);
             }
+        }
+        public bool isSunk(Grid grid)
+        {
+            int j = 0;
+            for(int i = 0; i < size; i++)
+            {
+                if (grid.Squares[body[i].X, body[i].Y].state == State.Hit)
+                {
+                    j++;
+                }
+            }
+            if (j == size)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

@@ -15,6 +15,8 @@ namespace Battleship
         Ship ship;
         Player bot;
         Player player;
+        int b = 0;
+        int p = 0;
         Random random = new Random();
         int turnspassed = 0;
         bool einBoolean = true;
@@ -114,7 +116,7 @@ namespace Battleship
         {
             for (int i = 0; i < 5; i++)
             {
-                if (player.Ships[i].inited == false)
+                if (player.Ships[i].isplaces == false)
                 {
                     return;
                 }
@@ -132,6 +134,167 @@ namespace Battleship
         }
         private void GameTimer_Tick(object sender, EventArgs e)
         {
+            b = 0;
+            p = 0;
+            for(int i = 0; i < 5; i++)
+            {
+                if (bot.Ships[i].isSunk(gridR))
+                {
+                    b++;
+                }
+                if (player.Ships[i].isSunk(gridL))
+                {
+                    p++;
+                }
+            }
+            if(b == 5)
+            {
+                MessageBox.Show("bot won");
+                bmpR = new Bitmap(pictureBox1.Width, pictureBox1.Height);
+                gfxR = Graphics.FromImage(bmpR);
+                gridR = new Grid();
+                bmpL = new Bitmap(pictureBox2.Width, pictureBox2.Height);
+                gfxL = Graphics.FromImage(bmpL);
+                gridL = new Grid();
+                player = new Player();
+                bot = new Player();
+                b = 0;
+                p = 0;
+                for (int i = 0; i < 5; i++)
+                {
+                    bool up = random.Next(2) == 0;
+                    Point start = new Point(random.Next(10), random.Next(10));
+                    Point end = new Point();
+                    if (up)
+                    {
+                        end.X = start.X;
+                        if (start.Y >= i)
+                        {
+                            end.Y = start.Y - i;
+                        }
+                        else
+                        {
+                            end.Y = start.Y + i;
+                        }
+                    }
+                    else
+                    {
+                        end.Y = start.Y;
+                        if (start.X >= i)
+                        {
+                            end.X = start.X - i;
+                        }
+                        else
+                        {
+                            end.X = start.X + i;
+                        }
+                    }
+                    while (!bot.Setter(start, end))
+                    {
+                        up = random.Next(2) == 0;
+                        start = new Point(random.Next(10), random.Next(10));
+                        end = new Point();
+                        if (up)
+                        {
+                            end.X = start.X;
+                            if (start.Y >= i)
+                            {
+                                end.Y = start.Y - i;
+                            }
+                            else
+                            {
+                                end.Y = start.Y + i;
+                            }
+                        }
+                        else
+                        {
+                            end.Y = start.Y;
+                            if (start.X >= i)
+                            {
+                                end.X = start.X - i;
+                            }
+                            else
+                            {
+                                end.X = start.X + i;
+                            }
+                        }
+                    }
+                }
+            }
+            if (p == 5)
+            {
+                MessageBox.Show("player won");
+                bmpR = new Bitmap(pictureBox1.Width, pictureBox1.Height);
+                gfxR = Graphics.FromImage(bmpR);
+                gridR = new Grid();
+                bmpL = new Bitmap(pictureBox2.Width, pictureBox2.Height);
+                gfxL = Graphics.FromImage(bmpL);
+                gridL = new Grid();
+                player = new Player();
+                bot = new Player();
+                b = 0;
+                p = 0;
+                for (int i = 0; i < 5; i++)
+                {
+                    bool up = random.Next(2) == 0;
+                    Point start = new Point(random.Next(10), random.Next(10));
+                    Point end = new Point();
+                    if (up)
+                    {
+                        end.X = start.X;
+                        if (start.Y >= i)
+                        {
+                            end.Y = start.Y - i;
+                        }
+                        else
+                        {
+                            end.Y = start.Y + i;
+                        }
+                    }
+                    else
+                    {
+                        end.Y = start.Y;
+                        if (start.X >= i)
+                        {
+                            end.X = start.X - i;
+                        }
+                        else
+                        {
+                            end.X = start.X + i;
+                        }
+                    }
+                    while (!bot.Setter(start, end))
+                    {
+                        up = random.Next(2) == 0;
+                        start = new Point(random.Next(10), random.Next(10));
+                        end = new Point();
+                        if (up)
+                        {
+                            end.X = start.X;
+                            if (start.Y >= i)
+                            {
+                                end.Y = start.Y - i;
+                            }
+                            else
+                            {
+                                end.Y = start.Y + i;
+                            }
+                        }
+                        else
+                        {
+                            end.Y = start.Y;
+                            if (start.X >= i)
+                            {
+                                end.X = start.X - i;
+                            }
+                            else
+                            {
+                                end.X = start.X + i;
+                            }
+                        }
+                    }
+                }
+            }
             if (!einBoolean)
             {
                 Point d = new Point(random.Next(0, 400), random.Next(0, 400));
@@ -167,7 +330,7 @@ namespace Battleship
             }
             for (int i = 0; i < 5; i++)
             {
-                if (player.Ships[i].inited)
+                if (player.Ships[i].isplaces)
                 {
                     player.Ships[i].Draw(gridL, gfxL, Brushes.Gainsboro);
                 }
@@ -233,6 +396,8 @@ namespace Battleship
             gridL = new Grid();
             player = new Player();
             bot = new Player();
+            b = 0;
+            p = 0;
             for (int i = 0; i < 5; i++)
             {
                 bool up = random.Next(2) == 0;
